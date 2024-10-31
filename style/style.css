@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 137px auto 18px auto;
+  padding-right: 4px;
+  color: #161d25;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  height: 26px;
+  padding-right: 15px;
+  overflow: hidden;
+  color: #5d7085;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 0.8;
+  clip-path: inset(0 0 9px 0);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 62px;
+  margin-bottom: 190px;
+  padding: 0;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  width: 266px;
+  height: 601px;
+  margin: 0 6px 0 0;
+  border-radius: 2px;
+  padding: 0 35px 36px 35px;
+  color: #fff;
+}
+
+
+h3 {
+  display: block;
+  justify-self: flex-start;
+  align-self: start;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+h4 {
+  align-self: start;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+}
+
+p {
+  display: flex;
+  align-items: flex-start;
+  align-self: start;
+  margin: 0;
+  margin-top: 13px;
+  font-weight: 700;
+  font-size: 67px;
+}
+
+.currency {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 7px 12px 0 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  list-style-image: url(../images/XMLID_89_.svg);
+  clip-path: inset(0 0 4px 0);
+}
+
+button {
+  width: 196px;
+  height: 40px;
+  margin: auto auto 0 auto;
+  border: #fff solid 1px;
+  padding: 0;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  background: transparent;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+h5 {
+  display: block;
+  width: 266px;
+  height: 31px;
+  margin: 0;
+  border-radius: 2px 2px 0 0;
+  padding: 8px 81px;
+  font-weight: 500;
+  font-size: 14px;
+  background: linear-gradient(180deg, #63d6fe 0%, #5dd4f8 100%);
+}
+
+.pricing__personal {
+  background: linear-gradient(180deg, #fdc624 0%, #e6c434 100%);
+}
+
+.pricing__personal-img {
+  padding: 72px 4px 14.7px 0;
+}
+
+.pricing__personal button:hover {
+  color: #fdc624;
+}
+
+.pricing__business {
+  background: linear-gradient(180deg, #55dce7 0%, #3dcad4 100%);
+}
+
+.pricing__business-img {
+  margin-bottom: 3px;
+  padding: 64px 0 14.7px 0;
+}
+
+.pricing__business button:hover {
+  color: #55dce7;
+}
+
+.pricing__developer {
+  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+}
+
+.pricing__developer-img {
+  margin-bottom: 14px;
+  padding: 18px 5px 0 0;
+}
+
+.pricing__developer button:hover {
+  color: #6bdfff;
+}
+
+.pricing__agency {
+  background: linear-gradient(180deg, #bfcedc 0%, #939fb3 100%);
+}
+
+.pricing__agency-img {
+  margin-bottom: 11px;
+  padding: 67px 11px 0 0;
+}
+
+
+.pricing__agency button:hover {
+  color: #bfcedc;
+}
